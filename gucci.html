@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <title>Bootstrap Theme GUCCI Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+  <style>
+  
+  #header-img{
+  
+  margin-top: 5px;
+  }
+  
+  
+  input[type="email"] {
+    max-width: 475px;
+    width: 100%;
+    padding: 5px;
+  }
+  
+   
+  #submit{
+  margin-top: 15px;
+  
+  }
+
+ 
+  .jumbotron {
+      background-color: #FFBF89;
+      color: #fff;
+      padding: 100px 25px;
+  }
+  
+  .bg-grey {
+    background-color: #f6f6f6;
+  
+    }
+    
+  .container-fluid {
+    padding: 60px 50px;
+    
+}
+
+.logo {
+      font-size: 100px;
+      float: right;
+      color: #FFBF89;
+  }
+  
+  
+  #how-it-works {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  
+  iframe {
+    max-width: 560px;
+    width: 100%;
+  }
+}
+
+.panel {
+      border: 1px solid #FFBF89; 
+      border-radius:0 !important;
+      transition: box-shadow 0.5s;
+  }
+  .panel:hover {
+      box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+  }
+  .panel-footer .btn:hover {
+      border: 1px solid #f4511e;
+      background-color: #fff !important;
+      color: #FFBF89;
+  }
+  .panel-heading {
+      color: #fff !important;
+      background-color: #FF9950 !important;
+      padding: 25px;
+      border-bottom: 1px solid transparent;
+      border-top-left-radius: 0px;
+      border-top-right-radius: 0px;
+      border-bottom-left-radius: 0px;
+      border-bottom-right-radius: 0px;
+  }
+  .panel-footer {
+      background-color: white !important;
+  }
+  .panel-footer h3 {
+      font-size: 32px;
+  }
+  .panel-footer h4 {
+      color: #aaa;
+      font-size: 14px;
+  }
+  .panel-footer .btn {
+      margin: 15px 0;
+      background-color: #FF9950;
+      color: #fff;
+  }
+  
+  
+  .navbar {
+      margin-bottom: 0;
+      background-color: #eee;
+      z-index: 9999;
+      border: 0;
+      font-size: 12px !important;
+      line-height: 1.42857143 !important;
+      letter-spacing: 4px;
+      border-radius: 0;
+  }
+  .navbar li a, .navbar .navbar-brand {
+      color: #4C4C4C !important;
+  }
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+      color: #4C4C4C !important;
+      background-color: #fff !important;
+  }
+  .navbar-default .navbar-toggle {
+      border-color: transparent;
+      color: #fff !important;
+  }
+  
+  footer {
+  margin-top: 30px;
+  background-color: #ddd;
+  padding: 20px;
+  
+  }
+  
+  ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    
+    }
+    
+    li {
+      padding: 0 10px;
+      
+    }
+  
+    span {
+    margin-top: 5px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.9em;
+    color: #444;
+    
+  }
+  
+  a{
+  color: #101010;
+  }
+  
+  a:hover{
+  text-decoration: none;
+  }
+  
+  @media screen and (max-width: 668px) {
+    .col-sm-3 {
+      text-align: center;
+      margin: 25px 0px;
+    }
+  }
+  </style>
+  
+</head>
+<body>
+
+<header id="header">
+
+<nav class="navbar navbar-default navbar-fixed-top" id="nav-bar">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+     <img id="header-img"  width="60px" height="40px" src="http://pluspng.com/img-png/gucci-logo-png-file-1960s-gucci-logo-svg-1280.png" alt="GUCCI logo" />
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a class="nav-link" href="#features">Features</a></li>
+        <li><a class="nav-link" href="#how-it-works ">How It Works </a></li>
+        <li><a class="nav-link" href="#pricing">Pricing</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+</header>
+
+<div class="jumbotron text-center">
+
+<h1>GUCCI</h1>
+  <p>If someone said to you This is so Gucci what would you do?</p>
+  
+  <form class="form-inline" id="form">
+    
+      <input type="email" class="form-control" size="40" placeholder="Enter Your Email Address" id="email" required>
+      <div class="input-group-btn">
+        <button type="button" class="btn btn-danger" id="submit">GET STARTED</button>
+      </div>
+    
+  </form>
+  
+</div>
+
+<div class="container-fluid bg-grey" id="features">
+  <div class="row">
+    <div class="col-sm-3">
+      <span class="glyphicon glyphicon-fire logo"></span>
+    </div>
+    <div class="col-sm-9">
+      <h2>Premium Materials</h2>
+        <p>Our clothes use the best material which is sourced from nature.
+         This will increase the longevity of your purchase.</p>
+    </div>
+  </div>
+
+
+
+  <div class="row">
+    <div class="col-sm-3">
+      <span class="glyphicon glyphicon-plane logo"></span>
+    </div>
+    <div class="col-sm-9">
+      <h2>Fast Shipping</h2>
+        <p>We make sure you receive your clothes as soon as possible.
+         We also provide free returns if you are not satisfied.</p>
+    </div>
+  </div>
+
+
+
+  <div class="row">
+    <div class="col-sm-3">
+      <span class="glyphicon glyphicon-thumbs-up logo"></span>
+    </div>
+    <div class="col-sm-9">
+      <h2>Quality Assurance</h2>
+        <p>For every purchase you make, 
+        we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
+    </div>
+  </div>
+  </div>
+
+
+<section id="how-it-works">
+  
+<iframe width="750" height="400" src="https://www.youtube.com/embed/KcSQcEn6b5s" 
+frameborder="0" allow="autoplay; encrypted-media" allowfullscreen id="video"></iframe>
+</section>
+
+
+<!-- Container (Pricing Section) -->
+<div class="container-fluid" id="pricing">
+  <div class="text-center">
+    <h2>Pricing</h2>
+    <h4>Choose a payment plan that works for you</h4>
+  </div>
+  <div class="row">
+    <div class="col-sm-4 col-xs-12">
+      <div class="panel panel-default text-center">
+        <div class="panel-heading">
+          <h1>Basic</h1>
+        </div>
+        <div class="panel-body">
+          <p><strong>20</strong> Lorem</p>
+          <p><strong>15</strong> Ipsum</p>
+          <p><strong>5</strong> Dolor</p>
+          <p><strong>2</strong> Sit</p>
+          <p><strong>Endless</strong> Amet</p>
+        </div>
+        <div class="panel-footer">
+          <h3>$19</h3>
+          <h4>per month</h4>
+          <button class="btn btn-lg">Sign Up</button>
+        </div>
+      </div>      
+    </div>     
+    <div class="col-sm-4 col-xs-12">
+      <div class="panel panel-default text-center">
+        <div class="panel-heading">
+          <h1>Pro</h1>
+        </div>
+        <div class="panel-body">
+          <p><strong>50</strong> Lorem</p>
+          <p><strong>25</strong> Ipsum</p>
+          <p><strong>10</strong> Dolor</p>
+          <p><strong>5</strong> Sit</p>
+          <p><strong>Endless</strong> Amet</p>
+        </div>
+        <div class="panel-footer">
+          <h3>$29</h3>
+          <h4>per month</h4>
+          <button class="btn btn-lg">Sign Up</button>
+        </div>
+      </div>      
+    </div>       
+    <div class="col-sm-4 col-xs-12">
+      <div class="panel panel-default text-center">
+        <div class="panel-heading">
+          <h1>Premium</h1>
+        </div>
+        <div class="panel-body">
+          <p><strong>100</strong> Lorem</p>
+          <p><strong>50</strong> Ipsum</p>
+          <p><strong>25</strong> Dolor</p>
+          <p><strong>10</strong> Sit</p>
+          <p><strong>Endless</strong> Amet</p>
+        </div>
+        <div class="panel-footer">
+          <h3>$49</h3>
+          <h4>per month</h4>
+          <button class="btn btn-lg">Sign Up</button>
+        </div>
+      </div>      
+    </div>    
+  </div>
+</div>
+
+  <footer>
+    <ul>
+      <li><a href="#">Privacy</a></li>
+      <li><a href="#">Terms</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+    <span>Copyright 2018, GUCCI</span>
+  </footer>
+
+</body>
+</html>
